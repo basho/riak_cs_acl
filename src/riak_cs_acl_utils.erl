@@ -22,7 +22,7 @@
 
 -module(riak_cs_acl_utils).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("xmerl/include/xmerl.hrl").
 
 -ifdef(TEST).

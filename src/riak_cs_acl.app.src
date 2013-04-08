@@ -1,0 +1,12 @@
+{application, riak_cs_acl,
+ [
+  {description, "ACL Support for Riak CS"},
+  {vsn, "1.3.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { riak_cs_acl_app, []}},
+  {env, []}
+ ]}.

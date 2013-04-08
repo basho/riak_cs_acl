@@ -23,7 +23,7 @@
 
 -module(riak_cs_acl).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("riak_pb/include/riak_pb_kv_codec.hrl").
 
 -ifdef(TEST).
